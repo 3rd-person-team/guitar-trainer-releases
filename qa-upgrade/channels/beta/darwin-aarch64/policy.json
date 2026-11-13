@@ -1,4 +1,4 @@
 {
-  "payload": "{\n  \"schemaVersion\": 1,\n  \"revision\": 2,\n  \"channel\": \"beta\",\n  \"platform\": \"darwin\",\n  \"arch\": \"aarch64\",\n  \"latestVersion\": \"0.1.1\",\n  \"minSupportedVersion\": \"0.1.0\",\n  \"reason\": \"qa-optional-hotfix\",\n  \"message\": \"별도 QA 앱의 0.1.1 핫픽스를 설치할 수 있습니다.\",\n  \"releaseUrl\": \"https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/qa-upgrade-v0.1.1\"\n}\n",
-  "signature": "0ab8FmYpHQM/ttr64nl5HuNEIV8CHBHdAQMYg+qPQP9e1frUVdJkx5ODqKS569MvThOXFu27JOdrSVW5FxoQCQ=="
+  "payload": "{\n  \"schemaVersion\": 1,\n  \"revision\": 3,\n  \"channel\": \"beta\",\n  \"platform\": \"darwin\",\n  \"arch\": \"aarch64\",\n  \"latestVersion\": \"0.1.1\",\n  \"minSupportedVersion\": \"0.1.1\",\n  \"reason\": \"qa-mandatory-upgrade\",\n  \"message\": \"자료 보존 검증을 위해 현재 연습을 마친 뒤 0.1.1로 업데이트해 주세요.\",\n  \"releaseUrl\": \"https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/qa-upgrade-v0.1.1\"\n}\n",
+  "signature": "3mJbazSK3iCx0/HUmpOve4RSLaGTd0ONnOqXG52f54mGdc2ANQXKGkOkdxkXFOdeQkM8GlZJw5RIUbDXBAxACA=="
 }

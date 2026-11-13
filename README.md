@@ -31,6 +31,12 @@ Guitar Trainer의 설치 파일과 배포 안내를 제공하는 저장소입니
 업데이트 주소를 분리합니다. macOS Apple Silicon / macOS 27.2 검증용이며 일반 사용자용
 배포 또는 다른 OS 지원을 뜻하지 않습니다.
 
+현재 [QA 0.1.3](https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/qa-upgrade-v0.1.3)은
+실제 0.1.2→0.1.3 필수 업데이트 설치·새 프로세스 자동 시작과 자료 보존 검증을 완료했습니다.
+연습 중 수동 정책 확인 후 자동 종료·저장을 거쳤으며, 설치 전후와 완전 종료·재실행 후
+이벤트 40개를 포함한 10개 저장소의 모든 필드·바이너리와 원본 영상 2개의 재내보내기가 일치했습니다.
+실제 입력 장치 녹화, 물리 절전·네트워크 단절/재연결, Windows 및 일반 운영 배포는 검증 범위 밖입니다.
+
 서명·공증된 실제 QA 바이너리만 게시하며, 해당 릴리스에 정확한 검증 상태를 기록합니다.
 QA manifest는 `qa-upgrade/channels/beta/latest.json`, 서명 정책은
 `qa-upgrade/channels/beta/darwin-aarch64/policy.json`을 사용합니다. 운영 `channels/`

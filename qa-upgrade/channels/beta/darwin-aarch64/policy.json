@@ -1,4 +1,4 @@
 {
-  "payload": "{\n  \"schemaVersion\": 1,\n  \"revision\": 3,\n  \"channel\": \"beta\",\n  \"platform\": \"darwin\",\n  \"arch\": \"aarch64\",\n  \"latestVersion\": \"0.1.1\",\n  \"minSupportedVersion\": \"0.1.1\",\n  \"reason\": \"qa-mandatory-upgrade\",\n  \"message\": \"자료 보존 검증을 위해 현재 연습을 마친 뒤 0.1.1로 업데이트해 주세요.\",\n  \"releaseUrl\": \"https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/qa-upgrade-v0.1.1\"\n}\n",
-  "signature": "3mJbazSK3iCx0/HUmpOve4RSLaGTd0ONnOqXG52f54mGdc2ANQXKGkOkdxkXFOdeQkM8GlZJw5RIUbDXBAxACA=="
+  "payload": "{\n  \"schemaVersion\": 1,\n  \"revision\": 4,\n  \"channel\": \"beta\",\n  \"platform\": \"darwin\",\n  \"arch\": \"aarch64\",\n  \"latestVersion\": \"0.1.2\",\n  \"minSupportedVersion\": \"0.1.1\",\n  \"reason\": \"Isolated QA restore persistence and update verification\",\n  \"message\": \"QA 복원 저장 수정 후보입니다. 이전 0.1.0/0.1.1 검증은 실패 기록으로 보존합니다.\",\n  \"releaseUrl\": \"https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/qa-upgrade-v0.1.2\"\n}\n",
+  "signature": "9bT/lPgr0/dcJkzu6vAcY7SgBmgb6ILy61h1r+HFsg1ksVojYhctfhuHnhWwP+xo02b+SJORmtHlgC7JCfLYAA=="
 }

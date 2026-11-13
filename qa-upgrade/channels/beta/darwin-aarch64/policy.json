@@ -1,0 +1,4 @@
+{
+  "payload": "{\n  \"schemaVersion\": 1,\n  \"revision\": 1,\n  \"channel\": \"beta\",\n  \"platform\": \"darwin\",\n  \"arch\": \"aarch64\",\n  \"latestVersion\": \"0.1.0\",\n  \"minSupportedVersion\": \"0.1.0\",\n  \"reason\": \"qa-baseline\",\n  \"message\": \"별도 QA 앱의 설치 및 자료 보존 검증용 정책입니다.\",\n  \"releaseUrl\": \"https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/qa-upgrade-v0.1.0\"\n}\n",
+  "signature": "WxuucrFoKUCIlV0WFGO+3pzyMu60CATdBoopNMdLMyi8Udn93WcXByp7+qd5tyKy6wdUdqrhOewwX+fFDWQSBQ=="
+}

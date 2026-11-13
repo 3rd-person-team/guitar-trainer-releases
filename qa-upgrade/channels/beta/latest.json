@@ -1,9 +1,9 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/3rd-person-team/guitar-trainer-releases/releases/download/qa-upgrade-v0.1.1/Guitar-Trainer-Upgrade-QA.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZTlOMFdqL0VDQmpHNlZyYTFjTnkxeGpab1l6U1M0aG5ZK2pjVGZCWmJBZmgrUUtYU1h3ZGlENTBsQWdZQ2ZFc2FkOGdBVjhSeVJrb2NpMHBRSGNkZ1dPclVOc1VXbVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTYxMTc3CWZpbGU6R3VpdGFyIFRyYWluZXIgVXBncmFkZSBRQS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjEKdVVrYlM3eGxFck9JTFdPcVNKbG9mUjNQak10bmx2bStHYVgrSzdWSHcwdVhlZnhKNi9iSFBKVU5mend3aWoyUWJwYndmWjdJdVBZZWNKWnl6N1JqRGc9PQo="
+      "url": "https://github.com/3rd-person-team/guitar-trainer-releases/releases/download/qa-upgrade-v0.1.2/Guitar-Trainer-Upgrade-QA.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZTlOMFdqL0VDQmlMbXVpdVpEak8rYUhDeUJyekJiUi9HQUF0QjdJMGRWdElZWTFZQ0h3NnhjYnJOak5Fb1J3RG5ac1dwNmUySHNGekg0VElBdUV4WGxEYU8xU21ta0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTYyNzM4CWZpbGU6R3VpdGFyIFRyYWluZXIgVXBncmFkZSBRQS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjIKajFhRmI4RGJsZytzMDk0aU5WMlI2NHhXZVNpQVlsWVZtU2hkUENsTDZZTE9zLzRNVjNsa2czbm1QNUFnRUtzSGVwNUZZdmgyc3pBeWVPaE5uY3phRFE9PQo="
     }
   }
 }

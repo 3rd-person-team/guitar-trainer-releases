@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Guitar Trainer의 macOS 공개 배포를 준비하고 있습니다." />
+    <meta name="theme-color" content="#4263e8" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
     <title>Guitar Trainer · 배포 준비 중</title>
     <style>
       :root {
         color-scheme: light;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-        color: #192a26;
-        background: #f3f5ef;
+        color: #242936;
+        background: #f7f8fb;
       }
 
       * {
@@ -30,8 +35,14 @@
         max-width: 620px;
         padding: clamp(28px, 7vw, 56px);
         background: #fff;
-        border: 1px solid #dce3d7;
+        border: 1px solid #e5e8ee;
         border-radius: 24px;
+      }
+
+      .brand-icon {
+        display: block;
+        margin: 0 0 24px;
+        border-radius: 15px;
       }
 
       .status {
@@ -39,8 +50,8 @@
         padding: 7px 12px;
         margin: 0 0 24px;
         border-radius: 999px;
-        background: #edf3e7;
-        color: #385132;
+        background: #eef2ff;
+        color: #4263e8;
         font-size: 14px;
         font-weight: 600;
       }
@@ -61,7 +72,7 @@
 
       p {
         margin: 0;
-        color: #52615a;
+        color: #667083;
         line-height: 1.75;
         word-break: keep-all;
         overflow-wrap: anywhere;
@@ -70,13 +81,13 @@
       a {
         display: inline-block;
         margin-top: 28px;
-        color: #285338;
+        color: #4263e8;
         font-weight: 600;
         text-underline-offset: 4px;
       }
 
       a:focus-visible {
-        outline: 3px solid #537e45;
+        outline: 3px solid #4263e8;
         outline-offset: 6px;
         border-radius: 2px;
       }
@@ -84,6 +95,7 @@
   </head>
   <body>
     <main>
+      <img class="brand-icon" src="./icons/app-icon-128.png" alt="" width="64" height="64" />
       <p class="status">macOS · 배포 준비 중</p>
       <h1>Guitar Trainer</h1>
       <h2>첫 공개 배포를 준비하고 있습니다.</h2>

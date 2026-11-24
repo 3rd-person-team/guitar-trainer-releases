@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Guitar Trainer의 macOS 공개 배포를 준비하고 있습니다." />
+    <meta name="description" content="Guitar Trainer 첫 macOS 파일럿 0.1.4. Apple Silicon, macOS 27.2 이상." />
     <meta name="theme-color" content="#4263e8" />
     <link rel="icon" href="./favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
-    <title>Guitar Trainer · 배포 준비 중</title>
+    <title>Guitar Trainer · macOS 파일럿</title>
     <style>
       :root {
         color-scheme: light;
@@ -86,6 +86,9 @@
         text-underline-offset: 4px;
       }
 
+      .download { padding: 14px 20px; border-radius: 10px; background: #4263e8; color: #fff; text-decoration: none; }
+      .instructions { margin-top: 24px; }
+      .limitations { margin-top: 24px; font-size: 14px; }
       a:focus-visible {
         outline: 3px solid #4263e8;
         outline-offset: 6px;
@@ -96,16 +99,19 @@
   <body>
     <main>
       <img class="brand-icon" src="./icons/app-icon-128.png" alt="" width="64" height="64" />
-      <p class="status">macOS · 배포 준비 중</p>
+      <p class="status">macOS · 파일럿 0.1.4</p>
       <h1>Guitar Trainer</h1>
-      <h2>첫 공개 배포를 준비하고 있습니다.</h2>
+      <h2>어려운 구간부터, 나의 속도로.</h2>
       <p>
-        현재는 내려받을 수 있는 설치 파일이 없습니다. macOS 버전의 서명·공증과 설치 확인을 마친 뒤
-        이곳에서 다운로드를 안내하겠습니다.
+        Apple Silicon(M1 이상) · macOS 27.2 이상을 위한 첫 베타입니다. 악보를 가져와 구간을
+        반복하고 연습 기록을 확인하세요. 로그인 없이 이 기기에 자료를 저장합니다.
       </p>
-      <a href="https://github.com/3rd-person-team/guitar-trainer-releases/releases">
-        GitHub에서 배포 소식 보기
-      </a>
+      <a class="download" href="https://github.com/3rd-person-team/guitar-trainer-releases/releases/download/v0.1.4/Guitar-Trainer_0.1.4_aarch64.dmg">macOS 설치 파일 받기</a>
+      <p class="instructions">DMG를 열어 앱을 Applications에 복사하세요. 기존 앱을 쓰고 있다면 먼저
+        <strong>앱 정보 · 백업 → 전체 자료 백업</strong>으로 자료를 보관하세요.</p>
+      <a href="https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/v0.1.4">설치 안내 · 알려진 제한 · 파일 검증</a>
+      <p class="limitations">Intel Mac, Windows, 모바일은 이번 파일럿 대상이 아닙니다.
+        기타 입력과 녹화는 장치 조합에 따라 다를 수 있습니다.</p>
     </main>
   </body>
 </html>

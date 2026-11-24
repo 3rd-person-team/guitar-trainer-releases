@@ -1,0 +1,9 @@
+{
+  "version": "0.1.4",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/3rd-person-team/guitar-trainer-releases/releases/download/v0.1.4/Guitar-Trainer.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZTlOMFdqL0VDQnJOenlWYmk2cmx5VnNoanhySHFYYUdJSm1hMUxCS0RENWFLMnpLc1Bia1lZUGZmblE2UkZ0TlQ4ZFNkSlBXWjkyaFhjL014QlltN3BMaTlCMnRLTEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTI4ODAwCWZpbGU6R3VpdGFyIFRyYWluZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMS40CjN2clN0UEZjZHpQVVcwOWlFUm9jUGhPYm1mV2N2R213L1Njb0hDQmg1REt2YzhRQ3krUzdqOEhXc2lzYXB4eVV4MFRkY1hNaGljWCs4WW10dzBPa0J3PT0K"
+    }
+  }
+}

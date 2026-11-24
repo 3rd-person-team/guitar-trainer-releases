@@ -1,0 +1,4 @@
+{
+  "payload": "{\"schemaVersion\":1,\"revision\":1,\"channel\":\"beta\",\"platform\":\"darwin\",\"arch\":\"aarch64\",\"latestVersion\":\"0.1.4\",\"minSupportedVersion\":\"0.1.0\",\"reason\":\"first-pilot\",\"message\":\"첫 macOS 파일럿 0.1.4입니다. 업데이트 전 자료를 백업해 주세요.\",\"releaseUrl\":\"https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/v0.1.4\"}",
+  "signature": "D4yQjgfENllsPM+Rm4QhhIKtG56ecQL4ePdm+E3HdowuKtF7g+wGu3iltw1vLuPYHUGbMdPMnUpzF5yMjMbDDw=="
+}

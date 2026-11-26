@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Guitar Trainer — 막히던 마디를 원곡 속도로</title>
-    <meta
-      name="description"
-      content="막히던 마디를 원곡 속도로. 구간을 골라 반복하세요. 속도는 Guitar Trainer가 조절합니다. Mac App Store 출시 예정."
-    />
+    <title>Guitar Trainer — 막히던 마디를 원곡 속도로 | Mac 기타 연습 앱</title>
+    <meta name="description" content="Mac용 기타 연습 앱 Guitar Trainer. Guitar Pro·MusicXML 타브 악보에서 막히는 구간을 골라 반복하면 성공·실패 기록에 따라 BPM을 자동으로 조절합니다. Mac App Store 출시 예정." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="application-name" content="Guitar Trainer" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="canonical" href="https://3rd-person-team.github.io/guitar-trainer-releases/" />
     <meta property="og:type" content="website" />
@@ -26,6 +25,93 @@
     <meta name="twitter:description" content="구간을 골라 반복하세요. 속도는 Guitar Trainer가 조절합니다." />
     <meta name="twitter:image" content="https://3rd-person-team.github.io/guitar-trainer-releases/assets/og-image.png" />
     <meta name="twitter:image:alt" content="Guitar Trainer 연습 화면: 현재 속도 78 BPM, 목표 진행률 21%" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://3rd-person-team.github.io/guitar-trainer-releases/#website",
+          "url": "https://3rd-person-team.github.io/guitar-trainer-releases/",
+          "name": "Guitar Trainer",
+          "inLanguage": "ko"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://3rd-person-team.github.io/guitar-trainer-releases/#app",
+          "name": "Guitar Trainer",
+          "url": "https://3rd-person-team.github.io/guitar-trainer-releases/",
+          "description": "Mac용 기타 연습 앱 Guitar Trainer. Guitar Pro·MusicXML 타브 악보에서 막히는 구간을 골라 반복하면 성공·실패 기록에 따라 BPM을 자동으로 조절합니다. Mac App Store 출시 예정.",
+          "applicationCategory": "MusicApplication",
+          "applicationSubCategory": "기타 연습",
+          "operatingSystem": "macOS",
+          "image": "https://3rd-person-team.github.io/guitar-trainer-releases/assets/og-image.png",
+          "screenshot": "https://3rd-person-team.github.io/guitar-trainer-releases/assets/practice.jpg",
+          "inLanguage": [
+            "ko",
+            "en",
+            "ja",
+            "pt"
+          ],
+          "featureList": [
+            "구간 반복과 BPM 자동 조절",
+            "성공·실패 연습 기록",
+            "왼손 운지·피킹 메모",
+            "Guitar Pro·MusicXML 악보 불러오기",
+            "기타 모니터링",
+            "실시간 타브 대조",
+            "연주하며 타브 악보 만들기"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://3rd-person-team.github.io/guitar-trainer-releases/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "기타를 꼭 연결해야 하나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "아닙니다. 구간 반복, BPM 조정, 기록, 악보 메모는 키보드만으로 쓸 수 있습니다. 모니터링, 실시간 타브 대조, 연주하며 악보 만들기는 오디오 인터페이스로 기타를 연결해야 합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "어떤 악보를 쓸 수 있나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Guitar Pro(GP3·GP4·GP5·GPX·GP) 파일과 MusicXML 파일을 불러올 수 있습니다. 여러 파트가 있는 악보는 연습할 파트를 고를 수 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "인터넷 없이도 쓸 수 있나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "네. 악보, 연습 기록, 녹음은 모두 이 Mac에 저장되고 인터넷 없이 열립니다. 백업 파일로 다른 기기에 옮길 수도 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "BPM은 어떤 규칙으로 바뀌나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "기본값은 세 번 성공하면 2 BPM 상승, 두 번 연속 실패하면 1 BPM 하강입니다. 횟수, 폭, 누적·연속 기준은 설정에서 바꿀 수 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "파일럿 0.1.4는 계속 쓸 수 있나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "네. 설치 방법, 알려진 제한, 자료 백업 방법은 0.1.4 릴리스 안내에 정리되어 있습니다."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
     <link rel="icon" href="./favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16.png" />

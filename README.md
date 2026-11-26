@@ -2,7 +2,7 @@
 
 첫 일반 앱 파일럿 **0.1.4 beta**를 제공합니다. Apple Silicon(M1 이상), macOS 27.2 이상이 대상입니다.
 
-- [다운로드 안내](https://3rd-person-team.github.io/guitar-trainer-releases/)
+- [소개 페이지](https://3rd-person-team.github.io/guitar-trainer-releases/) (Mac App Store 출시 예정 안내. 파일럿 설치 파일은 아래 릴리스에 있습니다.)
 - [0.1.4 릴리스와 설치 안내](https://github.com/3rd-person-team/guitar-trainer-releases/releases/tag/v0.1.4)
 
 로컬 악보·연습·기록·백업을 사용할 수 있으며 이번 빌드에는 로그인 서버를 연결하지 않았습니다.
